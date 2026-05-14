@@ -1,4 +1,4 @@
-# RevereseApp instuctions
+# ReverseApp instructions
 
 ## Load mesh
 
