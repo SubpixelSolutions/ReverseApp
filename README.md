@@ -26,7 +26,7 @@ The second parameter is **Cluster min size** and it purpose is to eliminate clus
 
 ![image_5.png](images/image_5.png)
 
-As you can see from the previous image, you got your model clusterised and now you can make preview of your model. Then can desided whether you want to accept or discard this clustering. If you are not satisfied with clustering, you can click on the **Discard** button below **Cluster**button in the same Clustering block on the left. If you are satisfied with clustering or maybe there are a few clusters that you would like to be clustered in the different way, you can click on the **Accept**button and you can recluster them separately. Reclustering is necessary when you have some clusters that you would like to see in a few clusters, then it can be selected by combination **CTRL + Left mouse click** and selected cluster will change color, then, change the clustering parameters and click on **Cluster**button and only selected cluster will be reclusted.
+As you can see from the previous image, you got your model clusterised and now you can make preview of your model. Then can desided whether you want to accept or discard this clustering. If you are not satisfied with clustering, you can click on the **Discard** button below **Cluster** button in the same Clustering block on the left. If you are satisfied with clustering or maybe there are a few clusters that you would like to be clustered in the different way, you can click on the **Accept** button and you can recluster them separately. Reclustering is necessary when you have some clusters that you would like to see in a few clusters, then it can be selected by combination **CTRL + Left mouse click** and selected cluster will change color, then, change the clustering parameters and click on **Cluster**button and only selected cluster will be reclusted.
 
 ### Reclustering
 
@@ -40,13 +40,13 @@ The problem with this cluster is that the flat and curved surfaces are grouped i
 
 ## Grouping
 
-Now, it is time to select one or more clusters to make a group. It is done by picking clusters by combination **CTRL + Left mouse click**and after all wanted clusters are selected, there is the **Create group** button on the central-right side of the application.
+Now, it is time to select one or more clusters to make a group. It is done by picking clusters by combination **CTRL + Left mouse click** and after all wanted clusters are selected, there is the **Create group** button on the central-right side of the application.
 
 ![image_8.png](images/image_8.png)
 
 Also, there can be noticed the list of all clusters, which can be selected there from the list without combination of **CTRL + Left mouse click**. As can be seen, two clusters are selected in the list just above
 
-the **Create group**button, in our case, those are two big clusters in the second cylinder from the top (blue circle), when some clusters are selected they get that orange color. When **Create group**is pressed, the new window, **Create group** will pop up.
+the **Create group**button, in our case, those are two big clusters in the second cylinder from the top (blue circle), when some clusters are selected they get that orange color. When **Create group** is pressed, the new window, **Create group** will pop up.
 
 ![image_9.png](images/image_9.png)
 
@@ -56,11 +56,11 @@ In this window, the selected group can be named, if there is no need for specifi
 
 After the group is created, it will be shown in the Groups block in the bottom right corner of the application window, in the list of all groups. In our case, we kept default group name, it consists of two clusters, selected primitive type is cylinder and there is one more column RMSE, which is not calculated at the moment because we have not fit anything on our group.
 
-The following procedure is to fit the primitive onto the selected group. That can be done in the three ways. The easiest one is to click on the **Fit**button in the groups block in the bottom right corner.
+The following procedure is to fit the primitive onto the selected group. That can be done in the three ways. The easiest one is to click on the **Fit** button in the groups block in the bottom right corner.
 
 ![image_10.png](images/image_10.png)
 
-Other two options are on the left side of the application window, in the Fitting tab in the Fit block and Advanced fitting. In the Fit block there is the **Fit all**button, which will fit each existing group with the selected primitive type, for example, if there are three groups, one with primitive type cone, second with primitive type cylinder and third one with sphere, this button will perform fitting of a cone onto the first group, cylinder onto the second one and sphere onto third one. In the Advanced fitting, there are buttons **Fit cylinder, Fit cone, Fit sphere, Fit surface**, and the procedure for fitting is to select group you want to fit and click on the appropriate button (Note: if primitive type of the group is not Undefined, then fit will be performed only if the selected fit button corresponds to the primitive).
+Other two options are on the left side of the application window, in the Fitting tab in the Fit block and Advanced fitting. In the Fit block there is the **Fit all** button, which will fit each existing group with the selected primitive type, for example, if there are three groups, one with primitive type cone, second with primitive type cylinder and third one with sphere, this button will perform fitting of a cone onto the first group, cylinder onto the second one and sphere onto third one. In the Advanced fitting, there are buttons **Fit cylinder, Fit cone, Fit sphere, Fit surface**, and the procedure for fitting is to select group you want to fit and click on the appropriate button (Note: if primitive type of the group is not Undefined, then fit will be performed only if the selected fit button corresponds to the primitive).
 
 ![image_11.png](images/image_11.png)
 
